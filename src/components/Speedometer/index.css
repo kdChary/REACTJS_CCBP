@@ -1,0 +1,69 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto';
+}
+body {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #07080c;
+  background-size: cover;
+  height: 100vh;
+}
+
+/*
+Hex: #ffffff
+Hex: #cbd5e1
+Hex: #0b69ff
+Hex: #94a3b8; */
+
+.title {
+  color: #ffffff;
+  font-size: 34px;
+  font-weight: 700;
+}
+.speed {
+  color: #ffffff;
+  font-size: 23px;
+  font-weight: 700;
+}
+.image {
+  width: 50%;
+}
+.message {
+  color: #cbd5e1;
+  font-size: 13px;
+  font-weight: 200;
+}
+.button {
+  border-radius: 13px;
+  padding: 12px 24px;
+  margin: 11px;
+  outline: none;
+}
+.increase {
+  border-style: none;
+  background-color: #0b69ff;
+  cursor: pointer;
+  color: #ffffff;
+}
+.decrease {
+  background-color: transparent;
+  cursor: pointer;
+  border-style: solid;
+  border-color: #94a3b8;
+  border-width: 2px;
+  color: #94a3b8;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 100vw;
+  }    
+}
